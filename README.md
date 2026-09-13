@@ -15,12 +15,11 @@ drug-review-sentiment/
 ├── README.md
 ├── requirements.txt
 ├── data/                    # csv file will go here
-├── src/
-│   ├── data_loader.py       # loads + filters dataset to one condition
-│   ├── preprocess.py        # text cleaning
-│   ├── train_baseline.py    # TF-IDF + Logistic Regression / Linear SVM
-│   ├── train_transformer.py # fine-tuned DistilBERT (stronger model)
-│   └── evaluate.py          # model comparison table
+├── data_loader.py       # loads + filters dataset to one condition
+├── preprocess.py        # text cleaning
+├── train_baseline.py    # TF-IDF + Logistic Regression / Linear SVM
+├── train_transformer.py # fine-tuned DistilBERT (stronger model)
+├── evaluate.py          # model comparison table
 └── outputs/                 # generated: metrics, confusion matrices, models
 ```
 
